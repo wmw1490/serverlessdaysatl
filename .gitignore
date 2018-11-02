@@ -61,4 +61,4 @@ typings/
 .next
 
 # For website build
-src/html-compiled
+ src/html-compiled/*
