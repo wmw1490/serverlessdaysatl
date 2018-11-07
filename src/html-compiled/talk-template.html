@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,800" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="Content-Language" content="en" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="serverless, serverlessdays, aws, microsoft azure, dazn, docebo, besharp" />
+<link rel="shortcut icon" type="image/x-icon" href="https://res.cloudinary.com/senzo/image/upload/c_scale,w_96/v1518368948/ALL-NEW_ALL-DIFFERENT_cwm1cv.png">
+<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css" />
+
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+
+<style>
+    .vh-60 { height:60vh; }
+    .vh-40 { height:40vh; }
+    .vh-30 { height:30vh; }
+    .sls-gray { color: #13110c; }
+    .sls-btn { color: #19b1a3; border-color: #19b1a3; }
+    .sls-border {border-color: #19b1a3; }
+
+    iframe#eventbrite {
+        width: 100%;
+        border: 0;
+        margin: 0;
+        overflow: scroll;
+        min-height: 1100px;
+    }
+
+    .serverlessdays-color {
+        color: #0bb9a7;
+    }
+
+    .speaker-img {
+        border-radius: 50%;
+        border: 2px solid #ddd;
+    }
+
+    .sponsors a {
+        display: inline-block;
+    }
+
+    @media screen and (min-width: 30em) {
+        .vh-40-ns {  height: 40vh; }
+    }
+</style>
+
+<script type='application/ld+json'>
+{
+    "@context": "http://www.schema.org",
+    "@type": "Organization",
+    "name": "ServerlessDays ATX",
+    "url": "https://atx.serverlessdays.io",
+    "logo": "https://res.cloudinary.com/senzo/image/upload/c_scale,w_640/v1518368968/serverless_logo_no_undertext_jcfeso.png",
+    "image": "https://res.cloudinary.com/senzo/image/upload/c_scale,w_1020/v1518368948/ALL-NEW_ALL-DIFFERENT_cwm1cv.png",
+    "description": "A community based conference focusing on Jeff (Serverless) based platforms and technologies. Austin, February 22nd, 2019",
+    "contactPoint": [{
+        "@type": "ContactPoint",
+        "email": "austin@serverlessdays.io",
+        "contactType": "technical support",
+        "url": "https://atx.serverlessdays.io"
+    }],
+    "sameAs": [
+        "https://twitter.com/ATXServerless",
+        "https://www.youtube.com/channel/UCYzAnR_SebAmLRkKIbK_YoQ",
+        "https://www.facebook.com/serverlessdays/"
+    ]
+}
+</script>
+
+  <title>%speaker% - ServerlessDays Milano 2018</title>
+  <link rel="canonical" href="https://milan.serverlessdays.io/talk-%key%.html" />
+  <meta property="og:url" content="https://milan.serverlessdays.io/talk-%key%.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="%speaker%" />
+  <meta property="og:description" content="%title% - %speaker% - ServerlessDays Milano 2018" />
+  <meta property="og:image" content="/speakers/%photoUrl%" />
+  <meta name="description" content="ServerlessDays Milano - %speaker%" />
+  <meta name="robots" content="index,follow" />
+</head>
+
+<body class="sls-gray">
+
+  <header>
+    <div class="bg-white">
+        <nav class="top-nav">
+
+            <div class="logoContainer">
+
+                <div class="logo">
+                    <a href="/" class="verticalCenter">
+                        <img src="logos/serverlessdays-atx.png" alt="ServerlessDays Logo" width="400" />
+                    </a>
+                </div>
+
+                <div class="dates bold">
+                    February 22nd, 2019
+                </div>
+
+            </div>
+
+            <div class="menu bold">
+                <!--<a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/">About</a>-->
+                <!--<a class="active no-mobile" href="/">Home</a>-->
+                <a class="no-mobile" href="/#about">About</a>
+                <a class="no-mobile" href="/#venue">Venue</a> 
+                <a class="" href="/#agenda">Agenda</a>
+                <a class="no-mobile" href="/#speakers">Speakers</a>
+                <a class="highlight" href="/#tickets">Tickets</a>
+                <!-- <a class="highlight" href="/#tickets">Tickets</a>-->
+                <a class="" href="/#sponsors">Sponsors</a>
+                <a class="no-mobile" href="/#coc">CoC</a>
+            </div>
+
+        </nav>
+    </div>
+</header>
+
+
+  <div class="breadcrumb">&nbsp;</div>
+
+  <div class="section talk">
+
+    <div class="photo">
+      <img src="/speakers/%photoUrl%" />
+    </div>
+
+    <div class="text">
+      <h1>%speaker%</h1>
+      <p>%bio%</p>
+      <h2>%session_type%: %title%</h2>
+      <p>%abstract%</p>
+      <a class="button" href="/#agenda">Back to the agenda</a>
+    </div>
+  </div>
+
+  <!-- sponsors -->
+  <div class="section">
+  <div class="left">
+    <div class="title">
+      <h1>Sponsors</h1>
+    </div>
+    <div class="image">
+      <img class="pa4" width="130" src="./Mascotte/Anteater_mascot.svg">
+    </div>
+  </div>
+
+  <div class="text">
+    <p>
+      Interested in becoming a sponsor? Take a look at our <span class="line-break no-mobile"></span>
+      Conference Prospectus page. You can see the different <span class="line-break no-mobile"></span>
+      sponsorship levels and sing up with PayPal.
+    </p>
+    <h3><a class="link bold highlight" href="./prospectus.html" title="ServerlessDays ATX Prospectus">Conference Prospectus Page</a></h3>
+  </div>
+</div>
+
+  <!-- footer -->
+  <footer class="section footer">
+    <div class="row">
+        <div>
+            <a class=" no-underline " href="mailto:austin@serverlessdays.io " title="Email us at austin@serverlessdays.io ">
+                austin@serverlessdays.io
+            </a>
+        </div>
+
+        <div>
+            <a href="https://twitter.com/ATXServerless " title="ServerlessDays ATX on Twitter " class="no-underline verticalCenter "
+                target="_blank ">
+                @ATXServerless
+            </a>
+        </div>
+
+        <div>
+            <p>
+                In collaboration with<br />
+                <a href="https://www.meetup.com/ATX-Serverless/ " title="ATX Serverless Meetup ">ATX Serverless Meetup</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="row mascotte">
+        <div><img width="100" height="141" src="./Mascotte/Moth_mascot.svg"></div>
+        <div><img width="100" height="141" src="./Mascotte/Dino_mascot.svg"></div>
+        <div><img width="100" height="141" src="./Mascotte/unicorn_mascot.svg"></div>
+        <div><img width="100" height="141" src="./Mascotte/owl_mascot.svg"></div>
+        <div><img width="100" height="141" src="./Mascotte/Anteater_mascot.svg"></div>
+        <div><img width="100" height="141" src="./Mascotte/octo_mascot.svg"></div>
+    </div>
+</footer>
+
+</body>
+
+</html>

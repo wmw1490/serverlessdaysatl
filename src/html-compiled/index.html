@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,800" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="Content-Language" content="en" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="serverless, serverlessdays, aws, microsoft azure, dazn, docebo, besharp" />
+<link rel="shortcut icon" type="image/x-icon" href="https://res.cloudinary.com/senzo/image/upload/c_scale,w_96/v1518368948/ALL-NEW_ALL-DIFFERENT_cwm1cv.png">
+<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css" />
+
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+
+<style>
+    .vh-60 { height:60vh; }
+    .vh-40 { height:40vh; }
+    .vh-30 { height:30vh; }
+    .sls-gray { color: #13110c; }
+    .sls-btn { color: #19b1a3; border-color: #19b1a3; }
+    .sls-border {border-color: #19b1a3; }
+
+    iframe#eventbrite {
+        width: 100%;
+        border: 0;
+        margin: 0;
+        overflow: scroll;
+        min-height: 1100px;
+    }
+
+    .serverlessdays-color {
+        color: #0bb9a7;
+    }
+
+    .speaker-img {
+        border-radius: 50%;
+        border: 2px solid #ddd;
+    }
+
+    .sponsors a {
+        display: inline-block;
+    }
+
+    @media screen and (min-width: 30em) {
+        .vh-40-ns {  height: 40vh; }
+    }
+</style>
+
+<script type='application/ld+json'>
+{
+    "@context": "http://www.schema.org",
+    "@type": "Organization",
+    "name": "ServerlessDays ATX",
+    "url": "https://atx.serverlessdays.io",
+    "logo": "https://res.cloudinary.com/senzo/image/upload/c_scale,w_640/v1518368968/serverless_logo_no_undertext_jcfeso.png",
+    "image": "https://res.cloudinary.com/senzo/image/upload/c_scale,w_1020/v1518368948/ALL-NEW_ALL-DIFFERENT_cwm1cv.png",
+    "description": "A community based conference focusing on Jeff (Serverless) based platforms and technologies. Austin, February 22nd, 2019",
+    "contactPoint": [{
+        "@type": "ContactPoint",
+        "email": "austin@serverlessdays.io",
+        "contactType": "technical support",
+        "url": "https://atx.serverlessdays.io"
+    }],
+    "sameAs": [
+        "https://twitter.com/ATXServerless",
+        "https://www.youtube.com/channel/UCYzAnR_SebAmLRkKIbK_YoQ",
+        "https://www.facebook.com/serverlessdays/"
+    ]
+}
+</script>
+ <title>ServerlessDays ATX - 22 February 2019</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="Content-Language" content="en" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="ServerlessDays Austin - 22 February 2019" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A community based conference focusing on Serverless based platforms and technologies. Austin, 22 February 2019" />
+<meta property="og:url" content="https://atx.serverlessdays.io" />
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/06/AustinSkylineLouNeffPoint-2010-03-29-b.JPG" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@ATXServerless"/>
+<meta name="twitter:title" content="ServerlessDays Austin 2019"/>
+<meta name="twitter:description" content="A community based conference focusing on Serverless based platforms and technologies. Austin, 22 February 2019"/>
+<meta name="twitter:creator" content="@richardboydii"/>
+<meta name="twitter:image" content="https://res.cloudinary.com/senzo/image/upload/c_scale,w_1020/v1518368948/ALL-NEW_ALL-DIFFERENT_cwm1cv.png"/>
+<meta name="twitter:domain" content="atx.serverlessdays.io"/>
+<meta name="description" content="A community based conference focusing on Serverless based platforms and technologies. Austin, 22 February 2019"/>
+</head>
+
+<body class="sls-gray">
+
+    
+    <header>
+    <div class="bg-white">
+        <nav class="top-nav">
+
+            <div class="logoContainer">
+
+                <div class="logo">
+                    <a href="/" class="verticalCenter">
+                        <img src="logos/serverlessdays-atx.png" alt="ServerlessDays Logo" width="400" />
+                    </a>
+                </div>
+
+                <div class="dates bold">
+                    February 22nd, 2019
+                </div>
+
+            </div>
+
+            <div class="menu bold">
+                <!--<a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/">About</a>-->
+                <!--<a class="active no-mobile" href="/">Home</a>-->
+                <a class="no-mobile" href="/#about">About</a>
+                <a class="no-mobile" href="/#venue">Venue</a> 
+                <a class="" href="/#agenda">Agenda</a>
+                <a class="no-mobile" href="/#speakers">Speakers</a>
+                <a class="highlight" href="/#tickets">Tickets</a>
+                <!-- <a class="highlight" href="/#tickets">Tickets</a>-->
+                <a class="" href="/#sponsors">Sponsors</a>
+                <a class="no-mobile" href="/#coc">CoC</a>
+            </div>
+
+        </nav>
+    </div>
+</header>
+
+
+    <div class="heroContainer" style="background-image: url('./bg.svg');">
+        <div class="heroDate">
+  <h1>Dates</h1>
+  <ul>
+    <li class="done">
+      <div class="checkmark">✔️</div>
+      <div class="text">
+        October 21st, 2018<br />
+        <strong><a href="https://www.papercall.io/serverlessdaysatx" target="_blank">CFP Opens</a></strong>
+      </div>
+    </li>
+    <li>
+      <div class="checkmark">✔️</div>
+      <div class="text">
+        November 2, 2018<br />
+        <strong><a href="https://serverlessdays-atx-2019.eventbrite.com" target="_blank">Early Bird Tickets Go on Sale</a></strong>
+      </div>
+    </li>
+    <li>
+      <div class="checkmark">✔️</div>
+      <div class="text">
+        November 30th, 2018<br />
+        <strong>CFP Closes</strong>
+      </div>
+    </li>
+    <li>
+      <div class="checkmark">✔️</div>
+      <div class="text">
+        December 7th, 2018<br />
+        <strong>Speaker Announcement</strong>
+      </div>
+    </li>
+    <li>
+      <div class="checkmark">✔️</div>
+      <div class="text">
+        December 8th, 2018<br />
+        <strong>Regular Tickets go on Sale</strong>
+      </div>
+    </li>
+    <li>
+      <div class="checkmark">✔️</div>
+      <div class="text">
+        February 22nd, 2019<br />
+        <strong>ServerlessDays ATX<br />@ Alamo Drafthouse South Lamar</strong>
+      </div>
+    </li>
+  </ul>
+</div> <div class="heroTitle">
+
+  <div class="mascotte">
+    <div><img class="" width="130" height="183" src="./Mascotte/Anteater_mascot.svg"></div>
+    <div><img class="" width="130" height="183" src="./Mascotte/octo_mascot.svg"></div>
+
+  </div>
+
+  <div class="title">
+    <div><img class="" width="130" height="183" src="./Mascotte/owl_mascot.svg"></div>
+    <h1>
+      One Day,<br/>One Track,<br/>One Community
+    </h1>
+    <div><img class="" width="130" height="183" src="./Mascotte/unicorn_mascot.svg"></div>
+  </div>
+
+  <div class="mascotte">
+    <div><img class="" width="130" height="183" src="./Mascotte/Moth_mascot.svg"></div>
+    <div><img class="" width="130" height="183" src="./Mascotte/Dino_mascot.svg"></div>
+  </div>
+
+</div>
+    </div>
+
+    <!-- about -->
+    <a name="about"></a>
+    <div class="section">
+
+    <div class="left">
+      <div class="title">
+        <h1>About</h1>
+      </div>
+      <div class="image">
+        <img class="pa4" width="130" src="./Mascotte/unicorn_mascot.svg">
+      </div>
+    </div>
+  
+    <div class="text">
+      <p>
+        ServerlessDays ATX is a developer-oriented conference about <span class="line-break no-mobile"></span>
+        serverless technologies.
+      </p>
+      <p>
+        We are platform and technology agnostic and want to create a <span class="line-break no-mobile"></span>
+        space where we can all learn new things about serverless! This <span class="line-break no-mobile"></span>
+        is our first year hosting ServerlessDays in ATX!
+      </p>
+      <p>
+        We believe in and encourage practical sessions, in which developers <span class="line-break no-mobile"></span>
+        share their experience and lessons from real-world projects.
+       
+      </p>
+      <p>
+        ServerlessDays ATX is part of ServerlessDays (formerly JeffConf), a <span class="line-break no-mobile"></span>
+        global series of events around the world fostering communities around <span class="line-break no-mobile"></span>
+        serverless technologies.
+      </p>
+      <p>
+        We follow and enforce the Serverless Days Code of Conduct.
+      </p>    
+    </div>
+  </div>
+
+
+    <!-- venue -->
+    <a name="venue"></a>
+    <div class="section" style="border-top: 0;">
+
+  <div class="left">
+    <div class="title">
+      <h1>Venue</h1>
+    </div>
+
+    
+    <div class="image"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13785.333857947388!2d-97.7635091!3d30.2560786!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b3eeeeb51b22f0c!2sAlamo+Drafthouse+Cinema+South+Lamar!5e0!3m2!1sen!2sus!4v1540361273060" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+  </div>
+
+  <div class="text">
+    <p>
+      The Conference will be hosted at the <a href="https://drafthouse.com/theater/south-lamar">Alamo Drafthouse on South Lamar.</a>,<span class="line-break no-mobile"></span>
+      which is a few blocks from Downtown Austin, South of Town Lake. <span class="line-break no-mobile"></span>
+      The venue has <b>free parking</b> for attendees!
+    </p>
+
+
+  </div>
+</div>
+
+    <!-- agenda -->
+    <a name="agenda"></a>
+    <div class="section agenda" style="border: 0">
+
+  <div class="header-button">
+    <h1>Agenda </h1>
+    <!--<button class="button">Add to your calendar</button>-->
+  </div>
+
+  <h2>Friday, February 22nd, 2019</h2>
+
+  <h3>Morning</h3>
+
+  <div class="row">
+
+    <div class="coffee">
+      <span>7:30 AM</span>
+      <div><span>Registration &amp; Breakfast</span></div>
+    </div>
+
+    <div class="talk">
+      <span>8:45 AM</span>
+      <strong>Welcome &amp; Introduction</strong>
+      <span>Conference Organizers</span>
+    </div>
+
+    <!---<div class="keynote" onclick="location='/talk-yan-cui.html'">-->
+    <div class="keynote talk">
+      <span>9:00 AM</span>
+      <strong>Opening Keynote: TBD</strong>
+      <span>TBD</span>
+    </div>
+
+    <div class="coffee">
+      <div><span>Break</span></div>
+    </div>
+
+    <div class="talk">
+      <span>10:00 AM</span>
+      <strong>Talk 1: TBD</strong>
+      <span>TBD</span>
+    </div>
+
+    <div class="coffee">
+      <div><span>Break</span></div>
+    </div>
+  
+    <div class="talk">
+      <span>11:00 AM</span>
+      <strong>Talk 2: TBD</strong>
+      <span>TBD</span>
+    </div>
+  
+    <div class="coffee lunch">
+      <span>11:45 AM</span>
+      <div><span>Lunch</span></div>
+    </div>
+
+  </div>
+
+  <h3>Afternoon</h3>
+
+  <div class="row">
+
+    <div class="talk">
+      <span>12:45 AM</span>
+      <strong>Talk 3: TBD</strong>
+      <span>TBD</span>
+    </div>
+
+    <div class="coffee">
+        <div><span>Break</span></div>
+    </div>
+
+    <div class="talk">
+      <span>1:45 PM</span>
+      <strong>Talk 4: TBD</strong>
+      <span>TBD</span>
+    </div>
+
+    <div class="coffee">
+      <div><span>Snack Break</span></div>
+    </div>
+
+    <div class="talk">
+      <span>3:00 PM</span>
+      <strong>Talk 5: TBD</strong>
+      <span>TBD</span>
+    </div>
+
+    <div class="coffee">
+      <div><span>Break</span></div>
+    </div>
+
+    <div class="talk">
+      <span>4:00 PM</span>
+      <strong>Talk 6: TBD</strong>
+      <span>TBD</span>
+    </div>
+
+    <div class="coffee">
+      <div><span>Break</span></div>
+    </div>
+
+    <div class="keynote talk">
+      <span>5:00 PM</span>
+      <strong>Closing Keynote: TBD</strong>
+      <span>TBD</span>
+    </div>
+
+    <div class="talk">
+      <span>5:45 PM</span>
+      <strong>Conference Closing</strong>
+      <span>Conference Organizers</span>
+    </div>
+  
+    <div class="coffee lunch">
+      <span>6:00 PM - 9:00 PM</span>
+      <div><span>Happy Hour</span></div>
+  </div>
+
+  </div>
+</div>
+
+    <!-- speakers -->
+    <a name="speakers"></a>
+    <div class="section">
+  <div class="left">
+    <div class="title">
+      <h1>Speakers</h1>
+    </div>
+    <div class="image">
+      <img class="pa4" width="130" src="./Mascotte/Dino_mascot.svg">
+    </div>
+  </div>
+
+  <div class="text">
+    <p>
+      Do you have a Serverless story that you want to share with the <span class="line-break no-mobile"></span>
+      community or Serverless project that you want to demo in <span class="line-break no-mobile"></span>
+      front of a live conference audience? Please submit your <span class="line-break no-mobile"></span>
+      <a href="https://www.papercall.io/serverlessdaysatx" target="_blank">conference talk using our Call for Papers Site.</a>
+    </p>
+  </div>
+</div>
+  
+
+    <!-- tickets -->
+    <a name="tickets"></a>
+    <div class="section" style="border: 0;">
+
+  <div class="left">
+    <div class="title">
+      <h1>Tickets</h1>
+    </div>
+    <div class="image"><img class="pa4" width="130" src="./Mascotte/octo_mascot.svg" /></div>
+  </div>
+
+  <div class="text">
+    <iframe src="https://eventbrite.com/tickets-external?eid=51675623180&ref=etckt" frameborder="0" height="300" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+    <div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" >
+      <a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="https://www.eventbrite.com/">Powered by Eventbrite</a>
+    </div>
+  </div>
+</div>
+
+    <!-- sponsors -->
+    <a name="sponsors"></a>
+    <div class="section">
+  <div class="left">
+    <div class="title">
+      <h1>Sponsors</h1>
+    </div>
+    <div class="image">
+      <img class="pa4" width="130" src="./Mascotte/Anteater_mascot.svg">
+    </div>
+  </div>
+
+  <div class="text">
+    <p>
+      Interested in becoming a sponsor? Take a look at our <span class="line-break no-mobile"></span>
+      Conference Prospectus page. You can see the different <span class="line-break no-mobile"></span>
+      sponsorship levels and sing up with PayPal.
+    </p>
+    <h3><a class="link bold highlight" href="./prospectus.html" title="ServerlessDays ATX Prospectus">Conference Prospectus Page</a></h3>
+  </div>
+</div>
+
+
+    <!-- CoC -->
+    <a name="coc"></a>
+    <div class="section coc" style="border: 0">
+
+  <h2>
+    <img width="80" src="./Mascotte/Moth_mascot.svg"> Code of Conduct
+  </h2>
+
+  <div class="expanded">
+    <p>
+      All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct.
+      Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help
+      ensuring a safe environment for everybody.
+    </p>
+    <p>
+      <strong>tl;dr: Jeff says be excellent with each other</strong>
+    </p>
+
+    <h3>
+      The Quick Version
+    </h3>
+    <p>
+      Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender
+      identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or
+      lack thereof). We do not tolerate harassment of conference participants in any form. Sexual language and imagery is
+      not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference
+      participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion
+      of the conference organisers.
+    </p>
+
+    <h3>
+      The Less Quick Version
+    </h3>
+    <p>
+      Harassment includes offensive verbal comments related to gender, age, sexual orientation, disability, physical appearance,
+      body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing
+      photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome
+      sexual attention.
+    </p>
+    <p>
+      Participants asked to stop any harassing behavior are expected to comply immediately.
+    </p>
+    <p>
+      Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities,
+      or other material. Booth staff (including volunteers) should not use sexualised clothing/uniforms/costumes, or otherwise
+      create a sexualised environment.
+    </p>
+    <p>
+      If a participant engages in harassing behavior, the conference organisers may take any action they deem appropriate, including
+      warning the offender or expulsion from the conference with no refund.
+    </p>
+    <p>
+      If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member
+      of conference staff immediately. Conference staff can be identified as they’ll be wearing branded t-shirts.
+    </p>
+    <p>
+      Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts,
+      or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
+    </p>
+    <p>
+      We expect participants to follow these rules at conference and workshop venues and conference-related social events.
+    </p>
+  </div>
+</div>
+
+    <!-- footer -->
+    <footer class="section footer">
+    <div class="row">
+        <div>
+            <a class=" no-underline " href="mailto:austin@serverlessdays.io " title="Email us at austin@serverlessdays.io ">
+                austin@serverlessdays.io
+            </a>
+        </div>
+
+        <div>
+            <a href="https://twitter.com/ATXServerless " title="ServerlessDays ATX on Twitter " class="no-underline verticalCenter "
+                target="_blank ">
+                @ATXServerless
+            </a>
+        </div>
+
+        <div>
+            <p>
+                In collaboration with<br />
+                <a href="https://www.meetup.com/ATX-Serverless/ " title="ATX Serverless Meetup ">ATX Serverless Meetup</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="row mascotte">
+        <div><img width="100" height="141" src="./Mascotte/Moth_mascot.svg"></div>
+        <div><img width="100" height="141" src="./Mascotte/Dino_mascot.svg"></div>
+        <div><img width="100" height="141" src="./Mascotte/unicorn_mascot.svg"></div>
+        <div><img width="100" height="141" src="./Mascotte/owl_mascot.svg"></div>
+        <div><img width="100" height="141" src="./Mascotte/Anteater_mascot.svg"></div>
+        <div><img width="100" height="141" src="./Mascotte/octo_mascot.svg"></div>
+    </div>
+</footer>
+
+</body>
+
+</html>
