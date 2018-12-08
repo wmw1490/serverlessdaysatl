@@ -1,26 +1,26 @@
 {
-  "name": "atx",
+  "name": "atl",
   "version": "1.0.0",
-  "description": "ServerlessDays ATX Website",
+  "description": "ServerlessDays Atlanta Website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverlessdaysatx/website.git"
+    "url": "git+https://github.com/serverlessdaysatl/website.git"
   },
   "keywords": [
     "serverless",
     "serverlessdays",
-    "london"
+    "Atlanta"
   ],
-  "author": "Richard Boyd",
+  "author": "Wallace Wilhoite",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serverlessdaysatx/website/issues"
+    "url": "https://github.com/serverlessdaysatl/website/issues"
   },
-  "homepage": "https://github.com/serverlessdaysatx/website#readme",
+  "homepage": "https://github.com/serverlessdaysatl/website#readme",
   "devDependencies": {
     "browser-sync": "^2.23.3",
     "connect-history-api-fallback": "^1.5.0",
